@@ -1,0 +1,51 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 26px;
+  margin: 0;
+  padding: 30px;
+}
+
+.link {
+  font-family: inherit;
+  font-size: inherit;
+  outline: none;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  margin: 15px 25px;
+  text-transform: uppercase;
+}
+
+.link--1 {
+  color: #435a6b;
+}
+
+.link--2 {
+  color: #f19f0f;
+  padding: 8px 0;
+}
+
+
+.link--3 {
+  color: #cd4436;
+  padding: 0 4px;
+  height: 1em;
+}
+
+.link--4 {
+  color: #435a6b;
+  padding: 0 20px;
+  height: 50px;
+  line-height: 50px;
+}
+
+.link--5 {
+  padding: 10px 20px;
+  color: #0e83cd;
+}
